@@ -1,0 +1,46 @@
+*{
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");;
+background-size: cover;
+}
+
+#navbar {
+    display: flex;
+ 
+    justify-content: space-between; 
+    padding-left: 4%;
+     padding-right: 4%;
+     border: solid 1px black; 
+  }
+
+  #options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #options h3 {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  #container{
+      display:grid;
+      grid-template-columns:repeat(2,50%);
+      grid-gap:20px;
+      justify-content: center;
+      padding:5%
+  }
+  /* input{
+    width:20%;
+  } */
+   input
+  {
+    width:150px;
+    height:50px;
+    margin:none;
+  }
+  button{
+    
+    width:100px;
+    height:60px;
+    margin:none;
+  }  
+  
